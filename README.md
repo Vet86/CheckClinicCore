@@ -1,0 +1,2 @@
+# CheckClinicCore
+Кроссплатформенная версия CheckClinicWin
