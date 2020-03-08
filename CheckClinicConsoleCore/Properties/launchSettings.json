@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CheckClinicConsoleCore": {
+      "commandName": "Project",
+      "commandLineArgs": "-c 255;255 -d д62.23;д62.22 -m vitalyev_aleksey@mail.ru;vitaleva_julia@mail.ru -n ПАВЛИКОВА;ПЕТРОВА"
+    }
+  }
+}
