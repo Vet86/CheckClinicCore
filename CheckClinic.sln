@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{55E3DA0F-C27B-45FB-BF90-AE4EB6D97B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{55E3DA0F-C27B-45FB-BF90-AE4EB6D97B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{7EC7C69B-F6F2-4A43-A696-F801AF1AC286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{7EC7C69B-F6F2-4A43-A696-F801AF1AC286}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender", "MailSender\MailSender.csproj", "{9ABBA76B-9C3E-4ACE-9B2B-2501E79C6D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailSender", "MailSender\MailSender.csproj", "{9ABBA76B-9C3E-4ACE-9B2B-2501E79C6D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser", "DataParser\DataParser.csproj", "{5CC12BAF-C820-4B6A-A1CF-5D3FA69BAE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParser", "DataParser\DataParser.csproj", "{5CC12BAF-C820-4B6A-A1CF-5D3FA69BAE42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataResolver", "DataResolver\DataResolver.csproj", "{12E636DA-ED1C-4442-BD65-06BACE9AF087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataResolver", "DataResolver\DataResolver.csproj", "{12E636DA-ED1C-4442-BD65-06BACE9AF087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRequest", "DataRequest\DataRequest.csproj", "{EC2E850E-C5A8-405A-BC51-4E40E0A009D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataRequest", "DataRequest\DataRequest.csproj", "{EC2E850E-C5A8-405A-BC51-4E40E0A009D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detector", "Detector\Detector.csproj", "{3238BC4C-CAE6-45D1-9104-D612478453AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Detector", "Detector\Detector.csproj", "{3238BC4C-CAE6-45D1-9104-D612478453AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckClinicConsoleCore", "CheckClinicConsoleCore\CheckClinicConsoleCore.csproj", "{D30E2C61-2AB2-4144-89E7-D90F11DAE249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckClinicConsoleCore", "CheckClinicConsoleCore\CheckClinicConsoleCore.csproj", "{D30E2C61-2AB2-4144-89E7-D90F11DAE249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckClinicUINew", "CheckClinicUINew\CheckClinicUINew.csproj", "{F5CABA06-AFBF-42E9-8B10-523FC7FA61C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D30E2C61-2AB2-4144-89E7-D90F11DAE249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D30E2C61-2AB2-4144-89E7-D90F11DAE249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D30E2C61-2AB2-4144-89E7-D90F11DAE249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CABA06-AFBF-42E9-8B10-523FC7FA61C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CABA06-AFBF-42E9-8B10-523FC7FA61C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CABA06-AFBF-42E9-8B10-523FC7FA61C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CABA06-AFBF-42E9-8B10-523FC7FA61C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
