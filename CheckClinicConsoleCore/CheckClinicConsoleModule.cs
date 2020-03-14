@@ -20,7 +20,7 @@ namespace CheckClinic.Console
             builder.RegisterType<SpecialityCollectionParser>().As<ISpecialityCollectionParser>();
             builder.RegisterType<DoctorCollectionDataResolver>().As<IDoctorCollectionDataResolver>();
             builder.RegisterType<DoctorCollectionParser>().As<IDoctorCollectionParser>();
-           //uilder.RegisterType<CacheGenerator.CacheGenerator>().As<ICacheGenerator>();
+            builder.RegisterType<CacheGenerator.CacheGenerator>().As<ICacheGenerator>();
             base.Load(builder);
         }
     }
